@@ -1,0 +1,14 @@
+[user]
+	name = Thomas Coudrat
+	email = thomas.coudrat@gmail.com
+[color]
+	ui = auto
+[core]
+	editor = vim
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	hist = log --graph --decorate --pretty=oneline --abbrev-commit
+	ll = log --pretty=format:\"%C(yellow)%h%Cred%d %Creset%s%Cblue [%cn]\" --decorate --numstat
+	ls = log --pretty=format:\"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)[%an]%Creset\" --abbrev-commit
